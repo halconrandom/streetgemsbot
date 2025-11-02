@@ -5,8 +5,8 @@
     "version": "open-ticket-v4.0.7"
   },
 
-  "token": "MTQzMzU4ODM3NDI3MDM3ODE1NQ.GtHeEq.o4GPSe9jEzThf9vBy9XF6likjcHc5EsXsKD344",
-  "tokenFromENV": false,
+  "token": "",
+  "tokenFromENV": true,
 
   "mainColor": "#147025",
   "language": "spanish",
