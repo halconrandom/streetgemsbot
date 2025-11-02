@@ -1,0 +1,10 @@
+[
+    {"category":"opendiscord:global_opendiscord:tickets-created","key":"GLOBAL","value":8},
+    {"category":"opendiscord:user_opendiscord:tickets-created","key":"502632643184164866","value":7},
+    {"category":"opendiscord:global_opendiscord:tickets-closed","key":"GLOBAL","value":1},
+    {"category":"opendiscord:user_opendiscord:tickets-closed","key":"502632643184164866","value":1},
+    {"category":"opendiscord:global_opendiscord:tickets-deleted","key":"GLOBAL","value":5},
+    {"category":"opendiscord:user_opendiscord:tickets-deleted","key":"502632643184164866","value":4},
+    {"category":"opendiscord:user_opendiscord:tickets-created","key":"271873447292960768","value":1},
+    {"category":"opendiscord:user_opendiscord:tickets-deleted","key":"271873447292960768","value":1}
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "ticket-embed",
+    "name": "Street Gems - Ticket Panel",
+    "dropdown": false,
+    "options": ["Ticket-Compra", "Ticket-Ventas", "Option-Tarjeta"],
+
+    "text": "",
+    "embed": {
+      "enabled": true,
+      "title": "**Street Gems - Sistema de Soporte**",
+      "description": "__¿Que deseas hacer hoy?__",
+
+      "customColor": "#f8ab00",
+      "url": "",
+
+      "image": "https://i.imgur.com/YwZjRfu.png",
+      "thumbnail": "",
+
+      "footer": "Sistema Hosteado por Street Gems",
+      "fields": [
+        { "name": "field name", "value": "field value", "inline": false }
+      ],
+      "timestamp": false
+    },
+    "settings": {
+      "dropdownPlaceholder": "Create a ticket!",
+
+      "enableMaxTicketsWarningInText": false,
+      "enableMaxTicketsWarningInEmbed": true,
+
+      "describeOptionsLayout": "simple",
+      "describeOptionsCustomTitle": "",
+      "describeOptionsInText": false,
+      "describeOptionsInEmbedFields": true,
+      "describeOptionsInEmbedDescription": false
+    }
+  }
+]

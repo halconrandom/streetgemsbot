@@ -1,0 +1,55 @@
+{
+  "general": {
+    "enabled": false,
+
+    "enableChannel": false,
+    "enableCreatorDM": false,
+    "enableParticipantDM": false,
+    "enableActiveAdminDM": false,
+    "enableEveryAdminDM": false,
+
+    "channel": "",
+    "mode": "html OR text"
+  },
+  "embedSettings": {
+    "customColor": "#f8ab00",
+    "listAllParticipants": false,
+    "includeTicketStats": false
+  },
+  "textTranscriptStyle": {
+    "layout": "simple",
+    "includeStats": true,
+    "includeIds": false,
+    "includeEmbeds": true,
+    "includeFiles": true,
+    "includeBotMessages": true,
+
+    "fileMode": "channel-name",
+    "customFileName": "this-is-a-transcript (or leave empty)"
+  },
+  "htmlTranscriptStyle": {
+    "background": {
+      "enableCustomBackground": false,
+      "backgroundColor": "#f8ba00",
+      "backgroundImage": ""
+    },
+    "header": {
+      "enableCustomHeader": false,
+      "backgroundColor": "#202225",
+      "decoColor": "#f8ba00",
+      "textColor": "#ffffff"
+    },
+    "stats": {
+      "enableCustomStats": false,
+      "backgroundColor": "#202225",
+      "keyTextColor": "#737373",
+      "valueTextColor": "#ffffff",
+      "hideBackgroundColor": "#40444a",
+      "hideTextColor": "#ffffff"
+    },
+    "favicon": {
+      "enableCustomFavicon": false,
+      "imageUrl": "https://t.dj-dj.be/favicon.png"
+    }
+  }
+}

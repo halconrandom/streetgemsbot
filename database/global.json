@@ -1,0 +1,10 @@
+[
+    {"category":"opendiscord:last-version","key":"opendiscord:version","value":"v4.0.7"},
+    {"category":"opendiscord:last-version","key":"opendiscord:api","value":"v1.0.0"},
+    {"category":"opendiscord:last-version","key":"opendiscord:transcripts","value":"v2.0.0"},
+    {"category":"opendiscord:last-version","key":"opendiscord:livestatus","value":"v2.0.0"},
+    {"category":"opendiscord:last-version","key":"opendiscord:last-version","value":"v4.0.7"},
+    {"category":"opendiscord:option-suffix-history","key":"example-ticket","value":["43bf"]},
+    {"category":"opendiscord:panel-message","key":"1433585542431244388_1433888444135772182","value":"ticket-embed"},
+    {"category":"opendiscord:panel-update","key":"1433585542431244388_1433888444135772182","value":"ticket-embed"}
+]

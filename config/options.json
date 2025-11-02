@@ -1,0 +1,392 @@
+[
+  {
+    "id": "example-ticket",
+    "name": "Question",
+    "description": "Create this ticket if you have a question! (or leave empty)",
+    "type": "ticket",
+
+    "button": {
+      "emoji": "🎫",
+      "label": "Abrir",
+      "color": "green"
+    },
+
+    "ticketAdmins": ["1433591295334547637"],
+    "readonlyAdmins": ["1433591295334547637"],
+    "allowCreationByBlacklistedUsers": false,
+    "questions": ["example-question-1", "example-question-2"],
+
+    "channel": {
+      "prefix": "solicitud-",
+      "suffix": "random-hex",
+      "category": "",
+      "closedCategory": "1433583783243808811",
+      "backupCategory": "1433583783243808811",
+      "claimedCategory": [
+        { "user": "502632643184164866", "category": "1433583783243808811" }
+      ],
+      "description": "Esto es un ticket"
+    },
+
+    "dmMessage": {
+      "enabled": false,
+      "text": "",
+      "embed": {
+        "enabled": false,
+        "title": "",
+        "description": "",
+        "customColor": "#f8ab00 (or leave empty)",
+
+        "image": "https://www.example.com/image.png (or leave empty)",
+        "thumbnail": "https://www.example.com/image.png (or leave empty)",
+        "fields": [
+          { "name": "field name", "value": "field value", "inline": false }
+        ],
+        "timestamp": false
+      }
+    },
+    "ticketMessage": {
+      "enabled": true,
+      "text": "",
+      "embed": {
+        "enabled": true,
+        "title": "Solicitud de Ticket",
+        "description": "Thank you for creating a 'Question' ticket in our server!\nOur support team will help you as soon as possible!",
+        "customColor": "",
+
+        "image": "",
+        "thumbnail": "",
+        "fields": [
+          { "name": "field name", "value": "field value", "inline": false }
+        ],
+        "timestamp": false
+      },
+      "ping": {
+        "@here": true,
+        "@everyone": false,
+        "custom": ["1433591295334547637"]
+      }
+    },
+    "autoclose": {
+      "enableInactiveHours": false,
+      "inactiveHours": 24,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "autodelete": {
+      "enableInactiveDays": false,
+      "inactiveDays": 7,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "cooldown": {
+      "enabled": false,
+      "cooldownMinutes": 10
+    },
+    "limits": {
+      "enabled": false,
+      "globalMaximum": 20,
+      "userMaximum": 3
+    }
+  },
+  {
+    "id": "example-website",
+    "name": "Website",
+    "description": "Go to our website.",
+    "type": "website",
+
+    "button": {
+      "emoji": "😃",
+      "label": "Visit our website"
+    },
+
+    "url": "https://www.dj-dj.be"
+  },
+  {
+    "id": "example-role",
+    "name": "Update Ping",
+    "description": "Click here to get notified on updates!",
+    "type": "role",
+
+    "button": {
+      "emoji": "📢",
+      "label": "Update Ping",
+      "color": "green"
+    },
+
+    "roles": ["1433596211171950633"],
+    "mode": "add&remove",
+    "removeRolesOnAdd": ["1433596211171950633"],
+    "addOnMemberJoin": false
+  },
+  {
+    "id": "Ticket-Compra",
+    "name": "¿Quieres Comprar?",
+    "description": "¿Te interesa algun de nuestros productos? ¡Abre un ticket y hablamos!",
+    "type": "ticket",
+
+    "button": {
+      "emoji": "🛒",
+      "label": "Comprar",
+      "color": "blue"
+    },
+
+    "ticketAdmins": ["1433591295334547637"],
+    "readonlyAdmins": ["1433591295334547637"],
+    "allowCreationByBlacklistedUsers": false,
+    "questions": ["Modelo-Compra"],
+
+    "channel": {
+      "prefix": "compra-",
+      "suffix": "user-name",
+      "category": "1433882789849075802",
+      "closedCategory": "1433879876863266938",
+      "backupCategory": "1433882624417333412",
+      "claimedCategory": [
+        { "user": "502632643184164866", "category": "1433583783243808811" }
+      ],
+      "description": "¿Como podemos ayudarte con tu compra?"
+    },
+
+    "dmMessage": {
+      "enabled": false,
+      "text": "",
+      "embed": {
+        "enabled": false,
+        "title": "",
+        "description": "",
+        "customColor": "",
+
+        "image": "https://www.example.com/image.png (or leave empty)",
+        "thumbnail": "https://www.example.com/image.png (or leave empty)",
+        "fields": [
+          { "name": "field name", "value": "field value", "inline": false }
+        ],
+        "timestamp": false
+      }
+    },
+    "ticketMessage": {
+      "enabled": true,
+      "text": "",
+      "embed": {
+        "enabled": true,
+        "title": "¡Bienvenido a la Zona de Compras!",
+        "description": "¡Gracias por tu interes en nuestras ofertas! \nNos comunicaremos contigo en breves momentos para asistirte con tu compra.",
+        "customColor": "#d1a506",
+
+        "image": "",
+        "thumbnail": "",
+        "fields": [
+          { "name": "field name", "value": "field value", "inline": false }
+        ],
+        "timestamp": false
+      },
+      "ping": {
+        "@here": true,
+        "@everyone": false,
+        "custom": ["1433591295334547637"]
+      }
+    },
+    "autoclose": {
+      "enableInactiveHours": false,
+      "inactiveHours": 24,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "autodelete": {
+      "enableInactiveDays": false,
+      "inactiveDays": 7,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "cooldown": {
+      "enabled": false,
+      "cooldownMinutes": 10
+    },
+    "limits": {
+      "enabled": false,
+      "globalMaximum": 20,
+      "userMaximum": 3
+    }
+  },
+  {
+    "id": "Ticket-Ventas",
+    "name": "¿Quieres Vender?",
+    "description": "¿Te interesa vender tus objetos? ¡Abre un ticket y hablamos!",
+    "type": "ticket",
+
+    "button": {
+      "emoji": "💲",
+      "label": "Vender",
+      "color": "green"
+    },
+
+    "ticketAdmins": ["1433591295334547637"],
+    "readonlyAdmins": ["1433591295334547637"],
+    "allowCreationByBlacklistedUsers": false,
+    "questions": ["Modelo-Venta1", "Modelo-Venta2"],
+
+    "channel": {
+      "prefix": "venta-",
+      "suffix": "user-name",
+      "category": "1433882823156306092",
+      "closedCategory": "1433879876863266938",
+      "backupCategory": "1433882624417333412",
+      "claimedCategory": [
+        { "user": "502632643184164866", "category": "1433583783243808811" }
+      ],
+      "description": "¿Como podemos ayudarte con tu venta?"
+    },
+
+    "dmMessage": {
+      "enabled": false,
+      "text": "",
+      "embed": {
+        "enabled": false,
+        "title": "",
+        "description": "",
+        "customColor": "",
+
+        "image": "https://www.example.com/image.png (or leave empty)",
+        "thumbnail": "https://www.example.com/image.png (or leave empty)",
+        "fields": [
+          { "name": "field name", "value": "field value", "inline": false }
+        ],
+        "timestamp": false
+      }
+    },
+    "ticketMessage": {
+      "enabled": true,
+      "text": "",
+      "embed": {
+        "enabled": true,
+        "title": "¡Bienvenido a la Zona de Ventas!",
+        "description": "¡Gracias por tu interes en nuestros servicios! \nNos comunicaremos contigo en breves momentos para asistirte con tu venta.",
+        "customColor": "#09a307",
+
+        "image": "",
+        "thumbnail": "",
+        "fields": [
+          { "name": "field name", "value": "field value", "inline": false }
+        ],
+        "timestamp": false
+      },
+      "ping": {
+        "@here": true,
+        "@everyone": false,
+        "custom": ["1433591295334547637"]
+      }
+    },
+    "autoclose": {
+      "enableInactiveHours": false,
+      "inactiveHours": 24,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "autodelete": {
+      "enableInactiveDays": false,
+      "inactiveDays": 7,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "cooldown": {
+      "enabled": false,
+      "cooldownMinutes": 10
+    },
+    "limits": {
+      "enabled": false,
+      "globalMaximum": 20,
+      "userMaximum": 3
+    }
+  },
+  {
+    "id": "Option-Tarjeta",
+    "name": "Nuestros Telefonos",
+    "description": "¿Deseas hablar con nosotros personalmente?",
+    "type": "ticket",
+
+    "button": {
+      "emoji": "📱",
+      "label": "Contactos",
+      "color": "red"
+    },
+
+    "ticketAdmins": ["1433591295334547637"],
+    "readonlyAdmins": ["1433591295334547637"],
+    "allowCreationByBlacklistedUsers": false,
+    "questions": ["Modelo-Contact"],
+
+    "channel": {
+      "prefix": "contacto-",
+      "suffix": "user-name",
+      "category": "1433897942129049723",
+      "closedCategory": "1433879876863266938",
+      "backupCategory": "1433882624417333412",
+      "claimedCategory": [
+        { "user": "502632643184164866", "category": "1433583783243808811" }
+      ],
+      "description": "¿Como podemos ayudarte?"
+    },
+
+    "dmMessage": {
+      "enabled": false,
+      "text": "",
+      "embed": {
+        "enabled": false,
+        "title": "",
+        "description": "",
+        "customColor": "",
+
+        "image": "https://www.example.com/image.png (or leave empty)",
+        "thumbnail": "https://www.example.com/image.png (or leave empty)",
+        "fields": [
+          { "name": "field name", "value": "field value", "inline": false }
+        ],
+        "timestamp": false
+      }
+    },
+    "ticketMessage": {
+      "enabled": true,
+      "text": "",
+      "embed": {
+        "enabled": true,
+        "title": "¡Bienvenido a Street Gems!",
+        "description": "Nos comunicaremos contigo en breves momentos para asistirte.",
+        "customColor": "#09a307",
+
+        "image": "https://i.imgur.com/W5VIkqK.png",
+        "thumbnail": "",
+        "fields": [
+          { "name": "field name", "value": "field value", "inline": false }
+        ],
+        "timestamp": false
+      },
+      "ping": {
+        "@here": true,
+        "@everyone": false,
+        "custom": ["1433591295334547637"]
+      }
+    },
+    "autoclose": {
+      "enableInactiveHours": false,
+      "inactiveHours": 24,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "autodelete": {
+      "enableInactiveDays": false,
+      "inactiveDays": 7,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "cooldown": {
+      "enabled": false,
+      "cooldownMinutes": 10
+    },
+    "limits": {
+      "enabled": false,
+      "globalMaximum": 20,
+      "userMaximum": 3
+    }
+  }
+]
