@@ -20,3 +20,5 @@ otdebug.txt
 .docs/*
 !.docs/createDocs.js
 !.docs/typedoc-config.json
+.env
+.env.*
